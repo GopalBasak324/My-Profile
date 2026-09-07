@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Experienced professional offering high-quality digital and creative services. Discover my portfolio and work with me to turn your ideas into impactful results."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive portfolio website | Gopal</title>
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav__logo">Gopal Basak</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li>
+              <a href="#work" class="nav__link">Works</a>
+            </li>
+            <li>
+              <a href="#service" class="nav__link">My Services</a>
+            </li>
+            <li>
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__contact">Contact me</a>
+            </li>
+          </ul>
+
+          <button class="nav__close" id="nav-close" aria-label="Close menu">
+            <i class="ri-close-large-line"></i>
+          </button>
+        </div>
+
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__subtitle">Hi! I'm Gopal - Based on India</span>
+            <h1 class="home__title">
+              Creative Designer &
+              <span class="home__education"></span>
+            </h1>
+            <p class="home__description">
+              I build designs and websites that solve problems, inspiring success.
+            </p>
+          </div>
+
+          <div class="home__perfil">
+            <div class="home__image">
+              <img src="assets/img/home-img.png" alt="Bianca portrait" class="home__img" />
+              <div class="blob-small"></div>
+              <div class="blob-big"></div>
+            </div>
+
+            <div class="home__info">
+              <div class="home__text">EXPLORE - MORE - LET'S - </div>
+              <a href="#work" class="home__link" aria-label="Explore more work">
+                <i class="ri-arrow-right-down-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section">
+        <div class="about__container container grid">
+          <h2 class="about__title">
+            About Me: Young freelancer who enjoys
+            <span>web design and development</span>, passionate about my work,
+            disciplined, and successful.
+          </h2>
+
+          <div class="about__data">
+            <p class="about__description">
+              If you have a project in mind, check out my work and contact me
+              to work together. Best of luck!
+            </p>
+            <a href="#contact" class="button">
+              Contact me <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <div class="work__top container">
+          <h2 class="work__title">View my work.</h2>
+          <button class="work__look-link" type="button" id="work-look-trigger">
+            Take a closer look
+            <i class="ri-add-circle-fill"></i>
+          </button>
+        </div>
+
+        <div class="work__carousel">
+          <div class="work__swiper swiper">
+            <div class="swiper-wrapper">
+              <article
+                class="work__card swiper-slide"
+                data-work-index="0"
+                role="button"
+                tabindex="0"
+                aria-haspopup="dialog"
+                aria-label="Open closer look at Restaurant Website"
+              >
+                <div class="work__copy">
+                  <h3 class="work__headline work__headline--warm">Restaurant Website.</h3>
+                  <p class="work__lead">
+                    A refined dining presence — from menu storytelling to effortless reservations.
+                  </p>
+                  <span class="work__note">Available as a full-stack build.</span>
+                </div>
+                <div class="work__media">
+                  <img src="assets/img/work-img-1.png" alt="Restaurant website workspace" class="work__img" />
+                </div>
+              </article>
+
+              <article
+                class="work__card swiper-slide"
+                data-work-index="1"
+                role="button"
+                tabindex="0"
+                aria-haspopup="dialog"
+                aria-label="Open closer look at Design For Agriculture"
+              >
+                <div class="work__copy">
+                  <h3 class="work__headline work__headline--green">Agriculture Design.</h3>
+                  <p class="work__lead">
+                    A field-ready brand system — clear, durable, and built for real operations.
+                  </p>
+                  <span class="work__note">Figma, motion, and web in one pass.</span>
+                </div>
+                <div class="work__media">
+                  <img src="assets/img/work-img-2.png" alt="Agriculture design workspace" class="work__img" />
+                </div>
+              </article>
+
+              <article
+                class="work__card swiper-slide"
+                data-work-index="2"
+                role="button"
+                tabindex="0"
+                aria-haspopup="dialog"
+                aria-label="Open closer look at Chicken Shop Website"
+              >
+                <div class="work__copy">
+                  <h3 class="work__headline work__headline--amber">Chicken Shop Website.</h3>
+                  <p class="work__lead">
+                    Fast ordering energy — menus, offers, and a storefront that feels local.
+                  </p>
+                  <span class="work__note">Designed for mobile-first visits.</span>
+                </div>
+                <div class="work__media">
+                  <img src="assets/img/work-img-3.png" alt="Chicken shop website mockup" class="work__img" />
+                </div>
+              </article>
+
+              <article
+                class="work__card swiper-slide"
+                data-work-index="3"
+                role="button"
+                tabindex="0"
+                aria-haspopup="dialog"
+                aria-label="Open closer look at Complete Systems For Mining"
+              >
+                <div class="work__copy">
+                  <h3 class="work__headline work__headline--cool">Mining Systems.</h3>
+                  <p class="work__lead">
+                    Operations, made visible — dashboards, records, and tools that stay in sync.
+                  </p>
+                  <span class="work__note">Database-backed and performance-led.</span>
+                </div>
+                <div class="work__media">
+                  <img src="assets/img/work-img-4.png" alt="Mining systems workspace" class="work__img" />
+                </div>
+              </article>
+
+              <article
+                class="work__card swiper-slide"
+                data-work-index="4"
+                role="button"
+                tabindex="0"
+                aria-haspopup="dialog"
+                aria-label="Open closer look at SEO Medicine Website"
+              >
+                <div class="work__copy">
+                  <h3 class="work__headline work__headline--mint">SEO Medicine Website.</h3>
+                  <p class="work__lead">
+                    Trusted care, found faster — search-led pages with a calm clinical voice.
+                  </p>
+                  <span class="work__note">SEO, content structure, and conversion.</span>
+                </div>
+                <div class="work__media">
+                  <img src="assets/img/work-img-5.png" alt="SEO medicine website workspace" class="work__img" />
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="work__controls">
+            <div class="work__pagination" id="work-pagination"></div>
+            <button class="work__replay" id="work-replay" type="button" aria-label="Replay highlights">
+              <i class="ri-refresh-line"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="service">
+        <h2 class="section__title">My <span>Services</span></h2>
+
+        <div class="services__container container grid">
+          <article class="services__card services-open">
+            <div class="services__header">
+              <h3 class="services__name">Website Developer</h3>
+              <i class="ri-add-line"></i>
+            </div>
+            <div class="services__info">
+              <p class="services__description">
+                The service I offer to companies and clients involves working
+                on professional, high-quality projects, doing what I am most
+                passionate about.
+              </p>
+              <ul class="services__list">
+                <li class="services__item">Web development</li>
+                <li class="services__item">Web performance</li>
+                <li class="services__item">Responsive design</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__header">
+              <h3 class="services__name">Backend Developer</h3>
+              <i class="ri-add-line"></i>
+            </div>
+            <div class="services__info">
+              <p class="services__description">
+                The service I offer to companies and clients involves working
+                on professional, high-quality projects, doing what I am most
+                passionate about.
+              </p>
+              <ul class="services__list">
+                <li class="services__item">Database</li>
+                <li class="services__item">Web performance</li>
+                <li class="services__item">Web development</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__header">
+              <h3 class="services__name">Web Designer</h3>
+              <i class="ri-add-line"></i>
+            </div>
+            <div class="services__info">
+              <p class="services__description">
+                The service I offer to companies and clients involves working
+                on professional, high-quality projects, doing what I am most
+                passionate about.
+              </p>
+              <ul class="services__list">
+                <li class="services__item">Designer</li>
+                <li class="services__item">Responsive design</li>
+                <li class="services__item">Web development</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__header">
+              <h3 class="services__name">SEO Specialist</h3>
+              <i class="ri-add-line"></i>
+            </div>
+            <div class="services__info">
+              <p class="services__description">
+                The service I offer to companies and clients involves working
+                on professional, high-quality projects, doing what I am most
+                passionate about.
+              </p>
+              <ul class="services__list">
+                <li class="services__item">Basic SEO</li>
+                <li class="services__item">Web performance</li>
+                <li class="services__item">Web development</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">My <span>Skills</span></h2>
+
+        <div class="skills__container container grid">
+          <p class="skills__description">
+            My skills are those I've learned and developed over the years. By studying,
+            focusing, and being consistent in what I love most.
+          </p>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Frontend</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <img src="assets/img/skills-frontend-1.svg" alt="" class="skills__img" />
+                <span class="skills__name">HTML</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-frontend-2.svg" alt="" class="skills__img" />
+                <span class="skills__name">CSS</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-frontend-3.svg" alt="" class="skills__img" />
+                <span class="skills__name">JavaScript</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-frontend-4.svg" alt="" class="skills__img" />
+                <span class="skills__name">React</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-frontend-5.svg" alt="" class="skills__img" />
+                <span class="skills__name">Sass</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-frontend-6.svg" alt="" class="skills__img" />
+                <span class="skills__name">Git</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-frontend-7.svg" alt="" class="skills__img" />
+                <span class="skills__name">GitHub</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-frontend-8.svg" alt="" class="skills__img" />
+                <span class="skills__name">Tailwind</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Backend</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <img src="assets/img/skills-backend-1.svg" alt="" class="skills__img" />
+                <span class="skills__name">Laravel</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-backend-2.svg" alt="" class="skills__img" />
+                <span class="skills__name">PostgreSQL</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-backend-3.svg" alt="" class="skills__img" />
+                <span class="skills__name">Node Js</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-backend-4.svg" alt="" class="skills__img" />
+                <span class="skills__name">Supabase</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-backend-5.svg" alt="" class="skills__img" />
+                <span class="skills__name">Socket.io</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Design</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <img src="assets/img/skills-design-1.svg" alt="" class="skills__img" />
+                <span class="skills__name">Figma</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-design-2.svg" alt="" class="skills__img" />
+                <span class="skills__name">Blender</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-design-3.svg" alt="" class="skills__img" />
+                <span class="skills__name">After Effects</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-design-4.svg" alt="" class="skills__img" />
+                <span class="skills__name">Photoshop</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-design-5.svg" alt="" class="skills__img" />
+                <span class="skills__name">Illustrator</span>
+              </div>
+              <div class="skills__group">
+                <img src="assets/img/skills-design-6.svg" alt="" class="skills__img" />
+                <span class="skills__name">Framer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== TESTIMONIALS ===============-->
+      <section class="testimonials section">
+        <h2 class="section__title">What They <span>Say</span></h2>
+
+        <div class="testimonials__container">
+          <div class="testimonials__slider">
+            <article class="testimonials__card">
+              <div class="testimonials__rating">
+                <i class="ri-star-fill"></i>
+                <span class="testimonials__number">5.0</span>
+              </div>
+              <p class="testimonials__description">
+                “This young man is very disciplined; he delivered a professional and
+                high-quality project. He is always in contact and active regarding
+                time, Good work.”
+              </p>
+              <div class="testimonials__profile">
+                <img src="assets/img/testimonial-1.png" alt="Sara The" class="testimonials__img" />
+                <h3 class="testimonials__name">Sara The</h3>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="testimonials__rating">
+                <i class="ri-star-fill"></i>
+                <span class="testimonials__number">5.0</span>
+              </div>
+              <p class="testimonials__description">
+                “This young man is very disciplined; he delivered a professional and
+                high-quality project. He is always in contact and active regarding
+                time, Good work.”
+              </p>
+              <div class="testimonials__profile">
+                <img src="assets/img/testimonial-2.png" alt="Elemar Rice" class="testimonials__img" />
+                <h3 class="testimonials__name">Elemar Rice</h3>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="testimonials__rating">
+                <i class="ri-star-fill"></i>
+                <span class="testimonials__number">5.0</span>
+              </div>
+              <p class="testimonials__description">
+                “This young man is very disciplined; he delivered a professional and
+                high-quality project. He is always in contact and active regarding
+                time, Good work.”
+              </p>
+              <div class="testimonials__profile">
+                <img src="assets/img/testimonial-3.png" alt="Rita Treds" class="testimonials__img" />
+                <h3 class="testimonials__name">Rita Treds</h3>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="testimonials__rating">
+                <i class="ri-star-fill"></i>
+                <span class="testimonials__number">5.0</span>
+              </div>
+              <p class="testimonials__description">
+                “This young man is very disciplined; he delivered a professional and
+                high-quality project. He is always in contact and active regarding
+                time, Good work.”
+              </p>
+              <div class="testimonials__profile">
+                <img src="assets/img/testimonial-4.png" alt="Augus Drix" class="testimonials__img" />
+                <h3 class="testimonials__name">Augus Drix</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact <span>Me</span></h2>
+
+        <div class="contact__container container grid">
+          <form action="" class="contact__form" id="contact-form">
+            <div class="contact__box">
+              <label for="user_name" class="contact__label">Name</label>
+              <input
+                type="text"
+                name="user_name"
+                id="user_name"
+                required
+                placeholder="Your name"
+                class="contact__input"
+              />
+            </div>
+
+            <div class="contact__box">
+              <label for="user_email" class="contact__label">Email</label>
+              <input
+                type="email"
+                name="user_email"
+                id="user_email"
+                required
+                placeholder="Your email"
+                class="contact__input"
+              />
+            </div>
+
+            <div class="contact__box">
+              <label for="user_message" class="contact__label">Message</label>
+              <textarea
+                name="user_message"
+                id="user_message"
+                required
+                placeholder="Your message"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <p class="contact__message" id="contact-message"></p>
+
+            <button type="submit" class="button contact__button">
+              Send Message <i class="ri-send-plane-2-line"></i>
+            </button>
+          </form>
+
+          <div class="contact__info">
+            <a href="mailto:bianca123@email.com" class="contact__card">
+              <i class="ri-mail-line"></i>
+              <div>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__address">bianca123@email.com</span>
+              </div>
+            </a>
+
+            <a href="tel:+991234567890" class="contact__card">
+              <i class="ri-phone-line"></i>
+              <div>
+                <h3 class="contact__card-title">Phone number</h3>
+                <span class="contact__address">+99 1234567890</span>
+              </div>
+            </a>
+
+            <a
+              href="https://maps.app.goo.gl/DcjYxRjxrkb3DHTo9"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact__card"
+            >
+              <i class="ri-map-pin-line"></i>
+              <div>
+                <h3 class="contact__card-title">Location</h3>
+                <span class="contact__address">Lima - Peru, Av. District #123</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h2 class="footer__title">
+          COLLABORATE WITH BIANCA AND START YOUR
+          JOURNEY IN CREATIVE DESIGN TODAY.
+        </h2>
+
+        <div class="footer__content">
+          <ul class="footer__links">
+            <li><a href="#work" class="footer__link">Work</a></li>
+            <li><a href="#service" class="footer__link">Services</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+          </ul>
+
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/bedimcode"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social-link"
+              aria-label="Facebook"
+            >
+              <i class="ri-facebook-circle-line"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/bedimcode/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social-link"
+              aria-label="Instagram"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a
+              href="https://github.com/bedimcode"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social-link"
+              aria-label="GitHub"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <span class="footer__copy">&#169; All Rights Reserved By Bedimcode</span>
+      </div>
+    </footer>
+
+    <a href="#home" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <div
+      class="look"
+      id="work-look"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="look-title"
+      aria-hidden="true"
+    >
+      <div class="look__panel">
+        <div class="look__head">
+          <h3 class="look__title" id="look-title">Take a closer look.</h3>
+          <button class="look__close" id="look-close" type="button" aria-label="Close closer look">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
+
+        <div class="look__body">
+          <div class="look__sidebar">
+            <button class="look__arrow" id="look-prev" type="button" aria-label="Previous detail">
+              <i class="ri-arrow-up-s-line"></i>
+            </button>
+            <div class="look__list" id="look-list"></div>
+            <button class="look__arrow" id="look-next" type="button" aria-label="Next detail">
+              <i class="ri-arrow-down-s-line"></i>
+            </button>
+          </div>
+
+          <div class="look__visual">
+            <img src="assets/img/work-img-1.png" alt="" class="look__img" id="look-img" />
+            <div class="look__stats" id="look-stats" hidden></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
